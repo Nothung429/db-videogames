@@ -106,3 +106,16 @@
 --INNER JOIN software_houses
 --ON software_houses.id = software_house_id;
 
+SELECT DISTINCT videogames.name, categories.name, pegi_labels.name
+FROM videogames
+INNER JOIN category_videogame
+ON videogames.id = category_videogame.videogame_id
+INNER JOIN categories
+ON category_videogame.category_id = categories.id
+INNER JOIN pegi_label_videogame
+ON videogames.id = pegi_label_videogame.videogame_id
+INNER JOIN pegi_labels
+ON pegi_label_videogame.pegi_label_id = pegi_labels.id
+INNER JOIN reviews
+ON videogames.id = reviews.videogame_id
+WHERE reviews.rating BETWEEN 4 AND 5;
