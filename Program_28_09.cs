@@ -20,7 +20,7 @@
 
 //10- Selezionare gli id dei videogame che hanno ricevuto almeno una recensione da stelle, mostrandoli una sola volta (443)
 
-//***********BONUS * **********
+//*********** BONUS ***********
 
 //11 - Selezionare il numero e la media delle recensioni per il videogioco con ID = 412 (review number = 12, avg_rating = 3)
 

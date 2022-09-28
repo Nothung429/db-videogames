@@ -44,4 +44,30 @@
 
 --GROUP BY EXERCISES
 
-SELECT
+--SELECT COUNT(*)
+--FROM software_houses
+--GROUP BY country;
+
+--SELECT COUNT(*)
+--FROM reviews
+--GROUP BY videogame_id;
+
+--SELECT COUNT(*)
+--FROM pegi_label_videogame
+--GROUP BY pegi_label_id;
+
+--SELECT COUNT(*)
+--FROM videogames
+--GROUP BY YEAR(release_date);
+
+--SELECT COUNT(*)
+--FROM device_videogame
+--GROUP BY device_id;
+
+--SELECT COUNT(*), AVG(rating)
+--FROM reviews
+--GROUP BY videogame_id;
+
+
+--JOIN EXERCISES
+
