@@ -1,6 +1,6 @@
 ﻿//Query su singola tabella
 
-//1- Selezionare tutte le software house americane (3)
+//1 - Selezionare tutte le software house americane (3)
 
 //2 - Selezionare tutti i giocatori della città di 'Rogahnland' (2)
 
@@ -10,15 +10,15 @@
 
 //5 - Contare quanti tornei ci sono stati nell'anno 2015 (9)
 
-//6- Selezionare tutti i premi che contengono nella descrizione la parola 'facere' (2)
+//6 - Selezionare tutti i premi che contengono nella descrizione la parola 'facere' (2)
 
 //7 - Selezionare tutti i videogame che hanno la categoria 2 (FPS) o 6(RPG), mostrandoli una sola volta (del videogioco vogliamo solo l'ID) (287)
 
-//8- Selezionare tutte le recensioni con voto compreso tra 2 e 4 (2947)
+//8 - Selezionare tutte le recensioni con voto compreso tra 2 e 4 (2947)
 
 //9 - Selezionare tutti i dati dei videogiochi rilasciati nell'anno 2020 (46)
 
-//10- Selezionare gli id dei videogame che hanno ricevuto almeno una recensione da stelle, mostrandoli una sola volta (443)
+//10 - Selezionare gli id dei videogame che hanno ricevuto almeno una recensione da stelle, mostrandoli una sola volta (443)
 
 //*********** BONUS ***********
 
@@ -29,22 +29,22 @@
 
 //Query con group by
 
-//1- Contare quante software house ci sono per ogni paese (3)
+//1 - Contare quante software house ci sono per ogni paese (3)
 
 //2 - Contare quante recensioni ha ricevuto ogni videogioco (del videogioco vogliamo solo l'ID) (500)
 
-//3- Contare quanti videogiochi hanno ciascuna classificazione PEGI (della classificazione PEGI vogliamo solo l'ID) (13)
+//3 - Contare quanti videogiochi hanno ciascuna classificazione PEGI (della classificazione PEGI vogliamo solo l'ID) (13)
 
-//4- Mostrare il numero di videogiochi rilasciati ogni anno (11)
+//4 - Mostrare il numero di videogiochi rilasciati ogni anno (11)
 
 //5 - Contare quanti videogiochi sono disponbiili per ciascun device (del device vogliamo solo l'ID) (7)
 
-//6- Ordinare i videogame in base alla media delle recensioni (del videogioco vogliamo solo l'ID) (500)
+//6 - Ordinare i videogame in base alla media delle recensioni (del videogioco vogliamo solo l'ID) (500)
 
 
 //Query con join
 
-//1- Selezionare i dati di tutti giocatori che hanno scritto almeno una recensione, mostrandoli una sola volta (996)
+//1 - Selezionare i dati di tutti giocatori che hanno scritto almeno una recensione, mostrandoli una sola volta (996)
 
 //2 - Sezionare tutti i videogame dei tornei tenuti nel 2016, mostrandoli una sola volta (226)
 
@@ -60,9 +60,9 @@
 
 //8 - Selezionare le città in cui è stato giocato il gioco dell'anno del 2018 (36)
 
-//9- Selezionare i giocatori che hanno giocato al gioco più atteso del 2018 in un torneo del 2019 (3306)
+//9 - Selezionare i giocatori che hanno giocato al gioco più atteso del 2018 in un torneo del 2019 (3306)
 
-//***********BONUS * **********
+//*********** BONUS ***********
 
 //10 - Selezionare i dati della prima software house che ha rilasciato un gioco, assieme ai dati del gioco stesso (software house id : 5)
 
